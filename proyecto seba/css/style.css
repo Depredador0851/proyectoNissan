@@ -1,0 +1,171 @@
+* {
+   margin: 0;
+   padding: 0;
+   background-color: #171718;
+   box-sizing: border-box;
+   font-family: 'Yanone Kaffeesatz', sans-serif;
+
+}
+
+
+.barraMenu {
+   text-align: right;
+   list-style-type: none;
+   font-size: 1,5rem;
+   margin-top: 10px;
+
+}
+
+.barraMenu li {
+   /* background-color: #393d42; */
+   display: inline;
+   text-align: right;
+   margin: 5px;
+}
+
+.barraMenu li a {
+   margin-top: auto;
+   padding: 2px 7px 2px 7px;
+   color: hsl(0, 0%, 40%);
+   background-color: #393d42;
+   border: 1px solid #cccccc;
+   text-decoration: none;
+   font-size: 1,5rem;
+}
+
+.barraMenu li a:hover {
+   background-color: #505152;
+   color: #ffffff;
+}
+
+h1 {
+   padding: 10px;
+   text-align: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: hsl(0, 0%, 40%);
+   /* margin-top: 440; */
+   font-size: 50px;
+}
+
+/* .tiutloInicio {
+   margin-top: ;
+   text-align: center;
+   font-size: 150px;
+} */
+
+.tituloDescripcion {
+   text-align: center;
+   font-size: 50px;
+}
+
+.textoDescripcion {
+   text-align: start;
+   font-size: 1rem;
+   overflow: hidden;
+}
+
+/* .ImagenInicio__contenido {
+   text-align: center;
+
+} */
+
+.imagenInicio {
+   display: flex;
+   justify-content: center;
+   margin: 15px;
+ }
+
+
+.ImagenInicio__contenido {
+   /* display: flex;
+   justify-content: center; */
+   margin-top: 10px;
+   height: 400px;
+   width: 800px;
+   padding: 10px;
+   border-radius: 50px;
+ }
+ 
+ 
+
+
+
+.videoDerechaInicio {
+   text-align: center;
+   list-style-type: none;
+   padding: 0px;
+}
+
+.videoIzquierdaInicio {
+   text-align: align center;
+
+   padding-left: 50px;
+}
+
+.videos {
+   display: flex;
+   justify-content: center;
+}
+
+.imagenesDescripcion {
+   text-align: center;
+}
+
+.fotoNissanP {
+   text-align: left;
+   list-style-type: none;
+   padding: 0px;
+   float: left;
+}
+
+.fotoNissanVerde {
+   text-align: center;
+   list-style-type: none;
+   padding: 0px;
+   float: left;
+}
+
+.UltimaFotoNissan {
+   text-align: right;
+   list-style-type: none;
+   padding: 0px;
+   float: left;
+}
+
+.imagenesDescripcion {
+   display: flex;
+   flex-direction: row;
+}
+
+
+
+
+
+
+/* descripcion JP */
+
+
+/* codigo para PRIMERA imagen + texto */
+.imagen1MasTexto{
+   margin-top: 150px;
+   display: flex;
+   justify-content: flex-start;
+   color: #ffffff;
+}
+
+.imagen1MasTexto__contenido{
+   margin-top: 10px;
+   height: auto;
+   width: 400px;
+   padding: 10px;
+   border-radius: 50px;
+   text-align: justify;
+}
+.fotoNissanP{
+   width: 400px;
+   height: auto;
+}
+.parrafo1{
+   font-size: 15px;
+   margin-left: 15px;
+}
